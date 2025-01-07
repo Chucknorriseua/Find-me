@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1EADE32D21D22A00B5F259 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC1EADE22D21D22A00B5F259 /* Entitlements.plist */; };
+		BC3317572D0CDE7E00A67F52 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3317562D0CDE7E00A67F52 /* Coordinator.swift */; };
+		BC3317592D0CDF8300A67F52 /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3317582D0CDF8300A67F52 /* CoordinatorView.swift */; };
+		BC42EA162D08626100F179DD /* Find_meApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA152D08626100F179DD /* Find_meApp.swift */; };
+		BC42EA182D08626100F179DD /* FindMeMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA172D08626100F179DD /* FindMeMain.swift */; };
+		BC42EA1A2D08626400F179DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC42EA192D08626400F179DD /* Assets.xcassets */; };
+		BC42EA1D2D08626400F179DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC42EA1C2D08626400F179DD /* Preview Assets.xcassets */; };
+		BC42EA2C2D08640800F179DD /* FindMeUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA2B2D08640800F179DD /* FindMeUser.swift */; };
+		BC42EA2E2D08659600F179DD /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA2D2D08659600F179DD /* AuthViewController.swift */; };
+		BC42EA312D086A1E00F179DD /* BackGroudFon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA302D086A1E00F179DD /* BackGroudFon.swift */; };
+		BC42EA332D086A5500F179DD /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA322D086A5500F179DD /* Color.swift */; };
+		BC42EA352D086A8700F179DD /* CustomLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA342D086A8700F179DD /* CustomLoader.swift */; };
+		BC42EA372D086AAE00F179DD /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA362D086AAE00F179DD /* CustomAlert.swift */; };
+		BC42EA392D086AD900F179DD /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA382D086AD900F179DD /* CustomTextField.swift */; };
+		BC42EA3B2D086B6900F179DD /* MainButtonSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA3A2D086B6900F179DD /* MainButtonSignIn.swift */; };
+		BC42EA422D088DE600F179DD /* FindFriendsAndAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA412D088DE600F179DD /* FindFriendsAndAdd.swift */; };
+		BC42EA442D088DF400F179DD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA432D088DF400F179DD /* SettingsView.swift */; };
+		BC42EA462D089D5600F179DD /* ButtonAnimationLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA452D089D5600F179DD /* ButtonAnimationLocation.swift */; };
+		BC42EA482D08BFA300F179DD /* FindMeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA472D08BFA300F179DD /* FindMeViewModel.swift */; };
+		BC42EA4A2D08C64200F179DD /* FindFrienCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA492D08C64200F179DD /* FindFrienCell.swift */; };
+		BC42EA4C2D08DE0500F179DD /* MyAddFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42EA4B2D08DE0500F179DD /* MyAddFriends.swift */; };
+		BC5418BB2D2D3630006F3E1F /* PhoneFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5418BA2D2D3630006F3E1F /* PhoneFormatter.swift */; };
+		BC8173732D0DB61F00168AF8 /* FireBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8173722D0DB61F00168AF8 /* FireBaseManager.swift */; };
+		BC8173752D0DB65600168AF8 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8173742D0DB65600168AF8 /* AuthViewModel.swift */; };
+		BC8173772D0DB6B100168AF8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8173762D0DB6B100168AF8 /* LocationManager.swift */; };
+		BC8173792D0DB7D300168AF8 /* NotificatioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8173782D0DB7D300168AF8 /* NotificatioManager.swift */; };
+		BC81737B2D1071E800168AF8 /* FriendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC81737A2D1071E800168AF8 /* FriendRequest.swift */; };
+		BC81737D2D107D4B00168AF8 /* FriendAccept.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC81737C2D107D4B00168AF8 /* FriendAccept.swift */; };
+		BC9D8D5E2D15817D00A8ACC4 /* FriendFlipDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D8D5D2D15817D00A8ACC4 /* FriendFlipDetailsCell.swift */; };
+		BC9D8D602D15891400A8ACC4 /* RecordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D8D5F2D15891400A8ACC4 /* RecordsCell.swift */; };
+		BC9D8D652D15A0A500A8ACC4 /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D8D642D15A0A500A8ACC4 /* Records.swift */; };
+		BC9D8D672D15A48A00A8ACC4 /* AudioRecorderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D8D662D15A48900A8ACC4 /* AudioRecorderViewModel.swift */; };
+		BC9D8D692D15A70C00A8ACC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC9D8D682D15A70C00A8ACC4 /* GoogleService-Info.plist */; };
+		BC9D8D6C2D15AD9C00A8ACC4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BC9D8D6B2D15AD9C00A8ACC4 /* FirebaseAuth */; };
+		BC9D8D6E2D15AD9C00A8ACC4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BC9D8D6D2D15AD9C00A8ACC4 /* FirebaseDatabase */; };
+		BC9D8D702D15AD9C00A8ACC4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BC9D8D6F2D15AD9C00A8ACC4 /* FirebaseFirestore */; };
+		BC9D8D722D15AD9C00A8ACC4 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = BC9D8D712D15AD9C00A8ACC4 /* FirebaseMessaging */; };
+		BC9D8D742D15AD9C00A8ACC4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BC9D8D732D15AD9C00A8ACC4 /* FirebaseStorage */; };
+		BCAC8B6D2D1E9C6A00F9D030 /* RecordSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC8B6C2D1E9C6900F9D030 /* RecordSettingsCell.swift */; };
+		BCAC8B6F2D1EBF9300F9D030 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC8B6E2D1EBF9300F9D030 /* MapView.swift */; };
+		BCB226342D21FD6D000AC425 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB226332D21FD6C000AC425 /* ShareSheet.swift */; };
+		BCB2646D2D172E1700E10311 /* CustomTextFieldSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2646C2D172E1700E10311 /* CustomTextFieldSettings.swift */; };
+		BCB9B9AA2D13385F006B6C7D /* FindmeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCBC15D2D0B47FB003DCD3B /* FindmeWidgetBundle.swift */; };
+		BCB9B9AB2D133872006B6C7D /* FindmeWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCBC15F2D0B47FB003DCD3B /* FindmeWidgetLiveActivity.swift */; };
+		BCB9B9AC2D133875006B6C7D /* FindmeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCBC1612D0B47FB003DCD3B /* FindmeWidget.swift */; };
+		BCB9B9AD2D133878006B6C7D /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCBC1632D0B47FB003DCD3B /* AppIntent.swift */; };
+		BCB9B9AF2D133B22006B6C7D /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCBC1632D0B47FB003DCD3B /* AppIntent.swift */; };
+		BCCBC0FF2D09A4E5003DCD3B /* ButtonMyFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCBC0FE2D09A4E5003DCD3B /* ButtonMyFriends.swift */; };
+		BCCBC1012D09A904003DCD3B /* MyFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCBC1002D09A904003DCD3B /* MyFriendsCell.swift */; };
+		BCCBC1032D09AB21003DCD3B /* MyFriendsMapLocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCBC1022D09AB21003DCD3B /* MyFriendsMapLocationDetails.swift */; };
+		BCCBC1592D0B47FB003DCD3B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCBC1582D0B47FB003DCD3B /* WidgetKit.framework */; };
+		BCCBC15B2D0B47FB003DCD3B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCBC15A2D0B47FB003DCD3B /* SwiftUI.framework */; };
+		BCCBC1662D0B47FE003DCD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCBC1652D0B47FE003DCD3B /* Assets.xcassets */; };
+		BCCBC16A2D0B47FE003DCD3B /* FindmeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BCCBC1562D0B47FB003DCD3B /* FindmeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCCBC1682D0B47FE003DCD3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC42EA0A2D08626100F179DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCBC1552D0B47FB003DCD3B;
+			remoteInfo = FindmeWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCCBC1202D09B840003DCD3B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BCCBC16A2D0B47FE003DCD3B /* FindmeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCBC1332D09CE52003DCD3B /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC1EADE22D21D22A00B5F259 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		BC3317562D0CDE7E00A67F52 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BC3317582D0CDF8300A67F52 /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		BC42EA122D08626100F179DD /* Find me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC42EA152D08626100F179DD /* Find_meApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_meApp.swift; sourceTree = "<group>"; };
+		BC42EA172D08626100F179DD /* FindMeMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMeMain.swift; sourceTree = "<group>"; };
+		BC42EA192D08626400F179DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC42EA1C2D08626400F179DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC42EA2B2D08640800F179DD /* FindMeUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMeUser.swift; sourceTree = "<group>"; };
+		BC42EA2D2D08659600F179DD /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		BC42EA302D086A1E00F179DD /* BackGroudFon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroudFon.swift; sourceTree = "<group>"; };
+		BC42EA322D086A5500F179DD /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		BC42EA342D086A8700F179DD /* CustomLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoader.swift; sourceTree = "<group>"; };
+		BC42EA362D086AAE00F179DD /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		BC42EA382D086AD900F179DD /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		BC42EA3A2D086B6900F179DD /* MainButtonSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonSignIn.swift; sourceTree = "<group>"; };
+		BC42EA412D088DE600F179DD /* FindFriendsAndAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsAndAdd.swift; sourceTree = "<group>"; };
+		BC42EA432D088DF400F179DD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BC42EA452D089D5600F179DD /* ButtonAnimationLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimationLocation.swift; sourceTree = "<group>"; };
+		BC42EA472D08BFA300F179DD /* FindMeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMeViewModel.swift; sourceTree = "<group>"; };
+		BC42EA492D08C64200F179DD /* FindFrienCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFrienCell.swift; sourceTree = "<group>"; };
+		BC42EA4B2D08DE0500F179DD /* MyAddFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAddFriends.swift; sourceTree = "<group>"; };
+		BC5418BA2D2D3630006F3E1F /* PhoneFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneFormatter.swift; sourceTree = "<group>"; };
+		BC8173722D0DB61F00168AF8 /* FireBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseManager.swift; sourceTree = "<group>"; };
+		BC8173742D0DB65600168AF8 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		BC8173762D0DB6B100168AF8 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BC8173782D0DB7D300168AF8 /* NotificatioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificatioManager.swift; sourceTree = "<group>"; };
+		BC81737A2D1071E800168AF8 /* FriendRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequest.swift; sourceTree = "<group>"; };
+		BC81737C2D107D4B00168AF8 /* FriendAccept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendAccept.swift; sourceTree = "<group>"; };
+		BC9D8D5D2D15817D00A8ACC4 /* FriendFlipDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFlipDetailsCell.swift; sourceTree = "<group>"; };
+		BC9D8D5F2D15891400A8ACC4 /* RecordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsCell.swift; sourceTree = "<group>"; };
+		BC9D8D642D15A0A500A8ACC4 /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
+		BC9D8D662D15A48900A8ACC4 /* AudioRecorderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderViewModel.swift; sourceTree = "<group>"; };
+		BC9D8D682D15A70C00A8ACC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCAC8B6C2D1E9C6900F9D030 /* RecordSettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSettingsCell.swift; sourceTree = "<group>"; };
+		BCAC8B6E2D1EBF9300F9D030 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BCB226332D21FD6C000AC425 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		BCB2646C2D172E1700E10311 /* CustomTextFieldSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldSettings.swift; sourceTree = "<group>"; };
+		BCCBC0FE2D09A4E5003DCD3B /* ButtonMyFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMyFriends.swift; sourceTree = "<group>"; };
+		BCCBC1002D09A904003DCD3B /* MyFriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsCell.swift; sourceTree = "<group>"; };
+		BCCBC1022D09AB21003DCD3B /* MyFriendsMapLocationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsMapLocationDetails.swift; sourceTree = "<group>"; };
+		BCCBC1212D09CC5C003DCD3B /* Find-me-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Find-me-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BCCBC1562D0B47FB003DCD3B /* FindmeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FindmeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCBC1582D0B47FB003DCD3B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		BCCBC15A2D0B47FB003DCD3B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		BCCBC15D2D0B47FB003DCD3B /* FindmeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindmeWidgetBundle.swift; sourceTree = "<group>"; };
+		BCCBC15F2D0B47FB003DCD3B /* FindmeWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindmeWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		BCCBC1612D0B47FB003DCD3B /* FindmeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindmeWidget.swift; sourceTree = "<group>"; };
+		BCCBC1632D0B47FB003DCD3B /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		BCCBC1652D0B47FE003DCD3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCCBC1672D0B47FE003DCD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCBC16E2D0B7306003DCD3B /* FindmeWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FindmeWidgetExtension.entitlements; sourceTree = "<group>"; };
+		BCCBC16F2D0B737A003DCD3B /* Find me.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Find me.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC42EA0F2D08626100F179DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9D8D722D15AD9C00A8ACC4 /* FirebaseMessaging in Frameworks */,
+				BC9D8D6E2D15AD9C00A8ACC4 /* FirebaseDatabase in Frameworks */,
+				BC9D8D6C2D15AD9C00A8ACC4 /* FirebaseAuth in Frameworks */,
+				BC9D8D742D15AD9C00A8ACC4 /* FirebaseStorage in Frameworks */,
+				BC9D8D702D15AD9C00A8ACC4 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCBC1532D0B47FB003DCD3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCBC15B2D0B47FB003DCD3B /* SwiftUI.framework in Frameworks */,
+				BCCBC1592D0B47FB003DCD3B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC3317552D0CDD7200A67F52 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BC3317562D0CDE7E00A67F52 /* Coordinator.swift */,
+				BC3317582D0CDF8300A67F52 /* CoordinatorView.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BC42EA092D08626100F179DD = {
+			isa = PBXGroup;
+			children = (
+				BCCBC16E2D0B7306003DCD3B /* FindmeWidgetExtension.entitlements */,
+				BC42EA142D08626100F179DD /* Find me */,
+				BCCBC15C2D0B47FB003DCD3B /* FindmeWidget */,
+				BCCBC1572D0B47FB003DCD3B /* Frameworks */,
+				BC42EA132D08626100F179DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC42EA132D08626100F179DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC42EA122D08626100F179DD /* Find me.app */,
+				BCCBC1562D0B47FB003DCD3B /* FindmeWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC42EA142D08626100F179DD /* Find me */ = {
+			isa = PBXGroup;
+			children = (
+				BCCBC16F2D0B737A003DCD3B /* Find me.entitlements */,
+				BCCBC1212D09CC5C003DCD3B /* Find-me-Info.plist */,
+				BC42EA152D08626100F179DD /* Find_meApp.swift */,
+				BC42EA2F2D0869D400F179DD /* Components */,
+				BC3317552D0CDD7200A67F52 /* Coordinator */,
+				BC42EA232D0862F600F179DD /* Model */,
+				BC42EA242D0862FC00F179DD /* ViewModel */,
+				BC42EA262D08631000F179DD /* FireBaseService */,
+				BC42EA252D08630200F179DD /* Controller */,
+				BC42EA192D08626400F179DD /* Assets.xcassets */,
+				BC9D8D682D15A70C00A8ACC4 /* GoogleService-Info.plist */,
+				BC42EA1B2D08626400F179DD /* Preview Content */,
+			);
+			path = "Find me";
+			sourceTree = "<group>";
+		};
+		BC42EA1B2D08626400F179DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC42EA1C2D08626400F179DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC42EA232D0862F600F179DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC42EA2B2D08640800F179DD /* FindMeUser.swift */,
+				BC9D8D642D15A0A500A8ACC4 /* Records.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC42EA242D0862FC00F179DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC42EA472D08BFA300F179DD /* FindMeViewModel.swift */,
+				BC9D8D662D15A48900A8ACC4 /* AudioRecorderViewModel.swift */,
+				BC81737E2D1089A000168AF8 /* Manager */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BC42EA252D08630200F179DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC42EA2A2D08638400F179DD /* MainController */,
+				BC42EA292D08637200F179DD /* AuthController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC42EA262D08631000F179DD /* FireBaseService */ = {
+			isa = PBXGroup;
+			children = (
+				BC8173712D0DB5F300168AF8 /* FireBaseManager */,
+				BC42EA272D08632800F179DD /* Auth */,
+			);
+			path = FireBaseService;
+			sourceTree = "<group>";
+		};
+		BC42EA272D08632800F179DD /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				BC8173742D0DB65600168AF8 /* AuthViewModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		BC42EA292D08637200F179DD /* AuthController */ = {
+			isa = PBXGroup;
+			children = (
+				BC42EA2D2D08659600F179DD /* AuthViewController.swift */,
+			);
+			path = AuthController;
+			sourceTree = "<group>";
+		};
+		BC42EA2A2D08638400F179DD /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				BC42EA172D08626100F179DD /* FindMeMain.swift */,
+				BC42EA412D088DE600F179DD /* FindFriendsAndAdd.swift */,
+				BC42EA432D088DF400F179DD /* SettingsView.swift */,
+				BC42EA3F2D088B8100F179DD /* View */,
+				BC42EA402D088B8900F179DD /* Cell */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		BC42EA2F2D0869D400F179DD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC42EA302D086A1E00F179DD /* BackGroudFon.swift */,
+				BC42EA322D086A5500F179DD /* Color.swift */,
+				BC42EA342D086A8700F179DD /* CustomLoader.swift */,
+				BC42EA362D086AAE00F179DD /* CustomAlert.swift */,
+				BC42EA382D086AD900F179DD /* CustomTextField.swift */,
+				BCCBC0FE2D09A4E5003DCD3B /* ButtonMyFriends.swift */,
+				BC42EA3A2D086B6900F179DD /* MainButtonSignIn.swift */,
+				BCB2646C2D172E1700E10311 /* CustomTextFieldSettings.swift */,
+				BCB226332D21FD6C000AC425 /* ShareSheet.swift */,
+				BC5418BA2D2D3630006F3E1F /* PhoneFormatter.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC42EA3F2D088B8100F179DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC42EA452D089D5600F179DD /* ButtonAnimationLocation.swift */,
+				BC42EA4B2D08DE0500F179DD /* MyAddFriends.swift */,
+				BCCBC1022D09AB21003DCD3B /* MyFriendsMapLocationDetails.swift */,
+				BC81737A2D1071E800168AF8 /* FriendRequest.swift */,
+				BC9D8D5D2D15817D00A8ACC4 /* FriendFlipDetailsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC42EA402D088B8900F179DD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BC42EA492D08C64200F179DD /* FindFrienCell.swift */,
+				BCCBC1002D09A904003DCD3B /* MyFriendsCell.swift */,
+				BC81737C2D107D4B00168AF8 /* FriendAccept.swift */,
+				BC9D8D5F2D15891400A8ACC4 /* RecordsCell.swift */,
+				BCAC8B6C2D1E9C6900F9D030 /* RecordSettingsCell.swift */,
+				BC1EADE22D21D22A00B5F259 /* Entitlements.plist */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BC8173712D0DB5F300168AF8 /* FireBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				BC8173722D0DB61F00168AF8 /* FireBaseManager.swift */,
+			);
+			path = FireBaseManager;
+			sourceTree = "<group>";
+		};
+		BC81737E2D1089A000168AF8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BC8173782D0DB7D300168AF8 /* NotificatioManager.swift */,
+				BC8173762D0DB6B100168AF8 /* LocationManager.swift */,
+				BCAC8B6E2D1EBF9300F9D030 /* MapView.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		BCCBC1572D0B47FB003DCD3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCCBC1582D0B47FB003DCD3B /* WidgetKit.framework */,
+				BCCBC15A2D0B47FB003DCD3B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCCBC15C2D0B47FB003DCD3B /* FindmeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				BCCBC15D2D0B47FB003DCD3B /* FindmeWidgetBundle.swift */,
+				BCCBC15F2D0B47FB003DCD3B /* FindmeWidgetLiveActivity.swift */,
+				BCCBC1612D0B47FB003DCD3B /* FindmeWidget.swift */,
+				BCCBC1632D0B47FB003DCD3B /* AppIntent.swift */,
+				BCCBC1652D0B47FE003DCD3B /* Assets.xcassets */,
+				BCCBC1672D0B47FE003DCD3B /* Info.plist */,
+			);
+			path = FindmeWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC42EA112D08626100F179DD /* Find me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC42EA202D08626400F179DD /* Build configuration list for PBXNativeTarget "Find me" */;
+			buildPhases = (
+				BC42EA0E2D08626100F179DD /* Sources */,
+				BC42EA0F2D08626100F179DD /* Frameworks */,
+				BC42EA102D08626100F179DD /* Resources */,
+				BCCBC1202D09B840003DCD3B /* Embed Foundation Extensions */,
+				BCCBC1332D09CE52003DCD3B /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCCBC1692D0B47FE003DCD3B /* PBXTargetDependency */,
+			);
+			name = "Find me";
+			packageProductDependencies = (
+				BC9D8D6B2D15AD9C00A8ACC4 /* FirebaseAuth */,
+				BC9D8D6D2D15AD9C00A8ACC4 /* FirebaseDatabase */,
+				BC9D8D6F2D15AD9C00A8ACC4 /* FirebaseFirestore */,
+				BC9D8D712D15AD9C00A8ACC4 /* FirebaseMessaging */,
+				BC9D8D732D15AD9C00A8ACC4 /* FirebaseStorage */,
+			);
+			productName = "Find me";
+			productReference = BC42EA122D08626100F179DD /* Find me.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCCBC1552D0B47FB003DCD3B /* FindmeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCBC16B2D0B47FE003DCD3B /* Build configuration list for PBXNativeTarget "FindmeWidgetExtension" */;
+			buildPhases = (
+				BCCBC1522D0B47FB003DCD3B /* Sources */,
+				BCCBC1532D0B47FB003DCD3B /* Frameworks */,
+				BCCBC1542D0B47FB003DCD3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindmeWidgetExtension;
+			productName = FindmeWidgetExtension;
+			productReference = BCCBC1562D0B47FB003DCD3B /* FindmeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC42EA0A2D08626100F179DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BC42EA112D08626100F179DD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BCCBC1552D0B47FB003DCD3B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = BC42EA0D2D08626100F179DD /* Build configuration list for PBXProject "Find me" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC42EA092D08626100F179DD;
+			packageReferences = (
+				BC9D8D6A2D15AB0400A8ACC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = BC42EA132D08626100F179DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC42EA112D08626100F179DD /* Find me */,
+				BCCBC1552D0B47FB003DCD3B /* FindmeWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC42EA102D08626100F179DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1EADE32D21D22A00B5F259 /* Entitlements.plist in Resources */,
+				BC42EA1D2D08626400F179DD /* Preview Assets.xcassets in Resources */,
+				BC42EA1A2D08626400F179DD /* Assets.xcassets in Resources */,
+				BC9D8D692D15A70C00A8ACC4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCBC1542D0B47FB003DCD3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCBC1662D0B47FE003DCD3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC42EA0E2D08626100F179DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAC8B6D2D1E9C6A00F9D030 /* RecordSettingsCell.swift in Sources */,
+				BCCBC0FF2D09A4E5003DCD3B /* ButtonMyFriends.swift in Sources */,
+				BC9D8D5E2D15817D00A8ACC4 /* FriendFlipDetailsCell.swift in Sources */,
+				BC81737B2D1071E800168AF8 /* FriendRequest.swift in Sources */,
+				BC3317592D0CDF8300A67F52 /* CoordinatorView.swift in Sources */,
+				BC8173732D0DB61F00168AF8 /* FireBaseManager.swift in Sources */,
+				BCCBC1032D09AB21003DCD3B /* MyFriendsMapLocationDetails.swift in Sources */,
+				BC42EA312D086A1E00F179DD /* BackGroudFon.swift in Sources */,
+				BC42EA2E2D08659600F179DD /* AuthViewController.swift in Sources */,
+				BC42EA442D088DF400F179DD /* SettingsView.swift in Sources */,
+				BC81737D2D107D4B00168AF8 /* FriendAccept.swift in Sources */,
+				BC42EA4A2D08C64200F179DD /* FindFrienCell.swift in Sources */,
+				BC8173792D0DB7D300168AF8 /* NotificatioManager.swift in Sources */,
+				BC42EA462D089D5600F179DD /* ButtonAnimationLocation.swift in Sources */,
+				BC42EA422D088DE600F179DD /* FindFriendsAndAdd.swift in Sources */,
+				BC9D8D652D15A0A500A8ACC4 /* Records.swift in Sources */,
+				BC42EA4C2D08DE0500F179DD /* MyAddFriends.swift in Sources */,
+				BCB2646D2D172E1700E10311 /* CustomTextFieldSettings.swift in Sources */,
+				BC42EA2C2D08640800F179DD /* FindMeUser.swift in Sources */,
+				BC9D8D602D15891400A8ACC4 /* RecordsCell.swift in Sources */,
+				BC9D8D672D15A48A00A8ACC4 /* AudioRecorderViewModel.swift in Sources */,
+				BC42EA482D08BFA300F179DD /* FindMeViewModel.swift in Sources */,
+				BC42EA182D08626100F179DD /* FindMeMain.swift in Sources */,
+				BC3317572D0CDE7E00A67F52 /* Coordinator.swift in Sources */,
+				BCAC8B6F2D1EBF9300F9D030 /* MapView.swift in Sources */,
+				BC42EA162D08626100F179DD /* Find_meApp.swift in Sources */,
+				BC42EA352D086A8700F179DD /* CustomLoader.swift in Sources */,
+				BC8173752D0DB65600168AF8 /* AuthViewModel.swift in Sources */,
+				BCCBC1012D09A904003DCD3B /* MyFriendsCell.swift in Sources */,
+				BC42EA3B2D086B6900F179DD /* MainButtonSignIn.swift in Sources */,
+				BC5418BB2D2D3630006F3E1F /* PhoneFormatter.swift in Sources */,
+				BCB226342D21FD6D000AC425 /* ShareSheet.swift in Sources */,
+				BC8173772D0DB6B100168AF8 /* LocationManager.swift in Sources */,
+				BC42EA332D086A5500F179DD /* Color.swift in Sources */,
+				BCB9B9AF2D133B22006B6C7D /* AppIntent.swift in Sources */,
+				BC42EA372D086AAE00F179DD /* CustomAlert.swift in Sources */,
+				BC42EA392D086AD900F179DD /* CustomTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCBC1522D0B47FB003DCD3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB9B9AA2D13385F006B6C7D /* FindmeWidgetBundle.swift in Sources */,
+				BCB9B9AD2D133878006B6C7D /* AppIntent.swift in Sources */,
+				BCB9B9AB2D133872006B6C7D /* FindmeWidgetLiveActivity.swift in Sources */,
+				BCB9B9AC2D133875006B6C7D /* FindmeWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCCBC1692D0B47FE003DCD3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCCBC1552D0B47FB003DCD3B /* FindmeWidgetExtension */;
+			targetProxy = BCCBC1682D0B47FE003DCD3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC42EA1E2D08626400F179DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC42EA1F2D08626400F179DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC42EA212D08626400F179DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Find me/Find me.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Find me/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CD8LK8D57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Find-me-Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "The app uses your location in the background to send geolocation to a friend.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Find me requires locations so it can offer nearby points of location";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "“This app requests access to your microphone for voice recording.”";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Permissions for the use of data transfer by share";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lostyahoo565-gmail.com.Find-me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BC42EA222D08626400F179DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Find me/Find me.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Find me/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CD8LK8D57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Find-me-Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "The app uses your location in the background to send geolocation to a friend.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Find me requires locations so it can offer nearby points of location";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "“This app requests access to your microphone for voice recording.”";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Permissions for the use of data transfer by share";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lostyahoo565-gmail.com.Find-me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BCCBC16C2D0B47FE003DCD3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = FindmeWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CD8LK8D57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindmeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FindmeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = 1111;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lostyahoo565-gmail.com.Find-me.FindmeWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BCCBC16D2D0B47FE003DCD3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = FindmeWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CD8LK8D57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindmeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FindmeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = 1111;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lostyahoo565-gmail.com.Find-me.FindmeWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC42EA0D2D08626100F179DD /* Build configuration list for PBXProject "Find me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC42EA1E2D08626400F179DD /* Debug */,
+				BC42EA1F2D08626400F179DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC42EA202D08626400F179DD /* Build configuration list for PBXNativeTarget "Find me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC42EA212D08626400F179DD /* Debug */,
+				BC42EA222D08626400F179DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCBC16B2D0B47FE003DCD3B /* Build configuration list for PBXNativeTarget "FindmeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCBC16C2D0B47FE003DCD3B /* Debug */,
+				BCCBC16D2D0B47FE003DCD3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BC9D8D6A2D15AB0400A8ACC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BC9D8D6B2D15AD9C00A8ACC4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC9D8D6A2D15AB0400A8ACC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BC9D8D6D2D15AD9C00A8ACC4 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC9D8D6A2D15AB0400A8ACC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		BC9D8D6F2D15AD9C00A8ACC4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC9D8D6A2D15AB0400A8ACC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		BC9D8D712D15AD9C00A8ACC4 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC9D8D6A2D15AB0400A8ACC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		BC9D8D732D15AD9C00A8ACC4 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC9D8D6A2D15AB0400A8ACC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BC42EA0A2D08626100F179DD /* Project object */;
+}
