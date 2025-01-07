@@ -37,7 +37,6 @@
 		BC81737D2D107D4B00168AF8 /* FriendAccept.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC81737C2D107D4B00168AF8 /* FriendAccept.swift */; };
 		BC9D8D5E2D15817D00A8ACC4 /* FriendFlipDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D8D5D2D15817D00A8ACC4 /* FriendFlipDetailsCell.swift */; };
 		BC9D8D602D15891400A8ACC4 /* RecordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D8D5F2D15891400A8ACC4 /* RecordsCell.swift */; };
-		BC9D8D652D15A0A500A8ACC4 /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D8D642D15A0A500A8ACC4 /* Records.swift */; };
 		BC9D8D672D15A48A00A8ACC4 /* AudioRecorderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D8D662D15A48900A8ACC4 /* AudioRecorderViewModel.swift */; };
 		BC9D8D692D15A70C00A8ACC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC9D8D682D15A70C00A8ACC4 /* GoogleService-Info.plist */; };
 		BC9D8D6C2D15AD9C00A8ACC4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BC9D8D6B2D15AD9C00A8ACC4 /* FirebaseAuth */; };
@@ -129,7 +128,6 @@
 		BC81737C2D107D4B00168AF8 /* FriendAccept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendAccept.swift; sourceTree = "<group>"; };
 		BC9D8D5D2D15817D00A8ACC4 /* FriendFlipDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFlipDetailsCell.swift; sourceTree = "<group>"; };
 		BC9D8D5F2D15891400A8ACC4 /* RecordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsCell.swift; sourceTree = "<group>"; };
-		BC9D8D642D15A0A500A8ACC4 /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
 		BC9D8D662D15A48900A8ACC4 /* AudioRecorderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderViewModel.swift; sourceTree = "<group>"; };
 		BC9D8D682D15A70C00A8ACC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BCAC8B6C2D1E9C6900F9D030 /* RecordSettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSettingsCell.swift; sourceTree = "<group>"; };
@@ -238,7 +236,6 @@
 			isa = PBXGroup;
 			children = (
 				BC42EA2B2D08640800F179DD /* FindMeUser.swift */,
-				BC9D8D642D15A0A500A8ACC4 /* Records.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -510,7 +507,6 @@
 				BC8173792D0DB7D300168AF8 /* NotificatioManager.swift in Sources */,
 				BC42EA462D089D5600F179DD /* ButtonAnimationLocation.swift in Sources */,
 				BC42EA422D088DE600F179DD /* FindFriendsAndAdd.swift in Sources */,
-				BC9D8D652D15A0A500A8ACC4 /* Records.swift in Sources */,
 				BC42EA4C2D08DE0500F179DD /* MyAddFriends.swift in Sources */,
 				BCB2646D2D172E1700E10311 /* CustomTextFieldSettings.swift in Sources */,
 				BC42EA2C2D08640800F179DD /* FindMeUser.swift in Sources */,
