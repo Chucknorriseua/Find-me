@@ -38,7 +38,6 @@
 		BC9D8D5E2D15817D00A8ACC4 /* FriendFlipDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D8D5D2D15817D00A8ACC4 /* FriendFlipDetailsCell.swift */; };
 		BC9D8D602D15891400A8ACC4 /* RecordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D8D5F2D15891400A8ACC4 /* RecordsCell.swift */; };
 		BC9D8D672D15A48A00A8ACC4 /* AudioRecorderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D8D662D15A48900A8ACC4 /* AudioRecorderViewModel.swift */; };
-		BC9D8D692D15A70C00A8ACC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC9D8D682D15A70C00A8ACC4 /* GoogleService-Info.plist */; };
 		BC9D8D6C2D15AD9C00A8ACC4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BC9D8D6B2D15AD9C00A8ACC4 /* FirebaseAuth */; };
 		BC9D8D6E2D15AD9C00A8ACC4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BC9D8D6D2D15AD9C00A8ACC4 /* FirebaseDatabase */; };
 		BC9D8D702D15AD9C00A8ACC4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BC9D8D6F2D15AD9C00A8ACC4 /* FirebaseFirestore */; };
@@ -60,6 +59,7 @@
 		BCCBC15B2D0B47FB003DCD3B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCBC15A2D0B47FB003DCD3B /* SwiftUI.framework */; };
 		BCCBC1662D0B47FE003DCD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCBC1652D0B47FE003DCD3B /* Assets.xcassets */; };
 		BCCBC16A2D0B47FE003DCD3B /* FindmeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BCCBC1562D0B47FB003DCD3B /* FindmeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BCCFA3D92D32E24200B7065F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCCFA3D82D32E24200B7065F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,7 +129,6 @@
 		BC9D8D5D2D15817D00A8ACC4 /* FriendFlipDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFlipDetailsCell.swift; sourceTree = "<group>"; };
 		BC9D8D5F2D15891400A8ACC4 /* RecordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsCell.swift; sourceTree = "<group>"; };
 		BC9D8D662D15A48900A8ACC4 /* AudioRecorderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderViewModel.swift; sourceTree = "<group>"; };
-		BC9D8D682D15A70C00A8ACC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BCAC8B6C2D1E9C6900F9D030 /* RecordSettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSettingsCell.swift; sourceTree = "<group>"; };
 		BCAC8B6E2D1EBF9300F9D030 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		BCB226332D21FD6C000AC425 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
@@ -149,6 +148,7 @@
 		BCCBC1672D0B47FE003DCD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCCBC16E2D0B7306003DCD3B /* FindmeWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FindmeWidgetExtension.entitlements; sourceTree = "<group>"; };
 		BCCBC16F2D0B737A003DCD3B /* Find me.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Find me.entitlements"; sourceTree = "<group>"; };
+		BCCFA3D82D32E24200B7065F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,7 +218,7 @@
 				BC42EA262D08631000F179DD /* FireBaseService */,
 				BC42EA252D08630200F179DD /* Controller */,
 				BC42EA192D08626400F179DD /* Assets.xcassets */,
-				BC9D8D682D15A70C00A8ACC4 /* GoogleService-Info.plist */,
+				BCCFA3D82D32E24200B7065F /* GoogleService-Info.plist */,
 				BC42EA1B2D08626400F179DD /* Preview Content */,
 			);
 			path = "Find me";
@@ -472,8 +472,8 @@
 			files = (
 				BC1EADE32D21D22A00B5F259 /* Entitlements.plist in Resources */,
 				BC42EA1D2D08626400F179DD /* Preview Assets.xcassets in Resources */,
+				BCCFA3D92D32E24200B7065F /* GoogleService-Info.plist in Resources */,
 				BC42EA1A2D08626400F179DD /* Assets.xcassets in Resources */,
-				BC9D8D692D15A70C00A8ACC4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
